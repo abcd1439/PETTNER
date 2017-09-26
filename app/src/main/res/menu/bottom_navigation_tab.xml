@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/first_tab"
+        android:enabled="true"
+        android:icon="@drawable/bottom1"
+        android:title="헬스케어"
+        />
+    <item
+        android:id="@+id/second_tab"
+        android:enabled="true"
+        android:icon="@drawable/bottom2"
+        android:title="키트검사"
+        />
+    <item
+        android:id="@+id/third_tab"
+        android:enabled="true"
+        android:icon="@drawable/bottom3"
+        android:title="의료코치" />
+</menu>

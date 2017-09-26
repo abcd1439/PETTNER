@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="338dp"
+    android:layout_height="70dp"
+    android:layout_margin="10dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5dp"
+    android:id="@+id/card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/hosname"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="70dp"
+            android:textSize="12sp" />
+
+
+
+        <TextView
+            android:id="@+id/hostext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="77dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="12dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/hossubnum"
+            android:text="답변 확인"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ff4081"
+            android:layout_marginLeft="263dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/hosdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="263dp"
+            android:textColor="#b3585858"
+            android:textSize="10sp"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

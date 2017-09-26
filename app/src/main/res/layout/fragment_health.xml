@@ -1,0 +1,189 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/pan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#f7f7f9">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_calendar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="10dp"
+        android:text="그래프 누를때 수치값"
+        android:id="@+id/text_message"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp"
+        />
+
+    <Button
+        android:id="@+id/personalbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="286dp"
+        android:gravity="center"
+        android:textColor="#217dfb"
+        android:textSize="12sp"
+        android:text="자세히보기"
+        android:background="#f7f7f9"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:layout_marginLeft="17dp"
+            android:textSize="16sp"
+            android:text="간장"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="81dp"
+            android:layout_marginLeft="17dp"
+            android:textSize="12sp"
+            android:textColor="#b35d5d5d"
+            android:text="(Urobilinogen)"/>
+
+    <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="17dp"
+            android:text="당뇨"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="136dp"
+            android:layout_marginLeft="17dp"
+            android:textSize="12sp"
+            android:textColor="#b35d5d5d"
+            android:text="(Glucose)"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:layout_marginLeft="17dp"
+            android:text="신장"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="17dp"
+            android:textSize="12sp"
+            android:textColor="#b35d5d5d"
+            android:text="(Protein)"/>
+
+    <TextView
+        android:id="@+id/status1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="232dp"
+        android:textSize="20sp"
+        android:textColor="#217dfb"
+        android:fontFamily="sans-serif-light"
+        android:text="정상"
+        />
+
+    <TextView
+        android:id="@+id/data1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:layout_marginLeft="303dp"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:text="10"/>
+
+    <ImageView
+        android:id="@+id/color1"
+        android:layout_width="40dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="303dp"
+        android:background="#dce977"
+        />
+    <TextView
+        android:id="@+id/status2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="121dp"
+        android:textSize="20sp"
+        android:textColor="#ff4081"
+        android:fontFamily="sans-serif-light"
+        android:text="비정상"/>
+
+    <TextView
+        android:id="@+id/status3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="174dp"
+        android:textSize="20sp"
+        android:textColor="#217dfb"
+        android:fontFamily="sans-serif-light"
+        android:text="정상"/>
+    <TextView
+        android:id="@+id/data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="107dp"
+        android:layout_marginLeft="303dp"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:text="2000"/>
+    <ImageView
+        android:id="@+id/color2"
+        android:layout_width="40dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="303dp"
+        android:layout_marginTop="135dp"
+        android:background="#90d0b6"
+        />
+
+    <TextView
+        android:id="@+id/data3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="303dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        android:text="1"
+        />
+    <ImageView
+        android:id="@+id/color3"
+        android:layout_width="40dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="303dp"
+        android:layout_marginTop="188dp"
+        android:background="#faa892"/>
+
+
+
+
+</RelativeLayout>

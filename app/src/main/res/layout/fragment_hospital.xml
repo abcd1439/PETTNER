@@ -1,0 +1,324 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="kr.bottomtab.pettner.ThirdBottomTabActivity">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:src="@drawable/origin_back"
+                />
+
+
+
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="316dp"
+            android:src="@drawable/icon_change"/>
+        <TextView
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="51dp"
+            android:text="병원변경"
+            android:textSize="10sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="311dp"/>
+
+
+        <TextView
+            android:id="@+id/hname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김현태 동물병원"
+            android:textSize="21sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="106dp"
+            android:textColor="#ffffff"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/icon_oheart"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="141dp"
+            android:text="0명"
+            android:textSize="12sp"
+            android:textColor="#ffffff"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_sclock"
+            android:layout_marginLeft="67dp"
+            android:layout_marginTop="145dp"/>
+        <TextView
+            android:id="@+id/reservtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="83dp"
+            android:layout_marginTop="141dp"
+            android:text="예약하기"
+            android:textSize="12sp"
+            android:textColor="#ffffff"/>
+        
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="213dp"
+            android:src="@drawable/icon_clock"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="진료시간"
+            android:textSize="14sp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="209dp"/>
+
+
+        <TextView
+            android:id="@+id/hdshdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="238dp"
+            android:text="평일: 09:00 ~ 18:00"
+            android:textSize="14sp"
+            android:textColor="#717171"
+            />
+        <TextView
+            android:id="@+id/heshef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="261dp"
+            android:text="주말: 09:00 ~ 15:00"
+            android:textSize="14sp"
+            android:textColor="#717171"
+            />
+        <TextView
+            android:id="@+id/hvacation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="283dp"
+            android:text="휴무:"
+            android:textSize="14sp"
+            android:textColor="#717171"
+            />
+        <TextView
+            android:id="@+id/hdlshdlf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="238dp"
+            android:text="점심: 12:00 ~ 14:00"
+            android:textSize="14sp"
+            android:textColor="#717171"
+            />
+        <TextView
+            android:id="@+id/helshelf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="261dp"
+            android:text="점심: 12:00 ~ 14:00"
+            android:textSize="14sp"
+            android:textColor="#717171"
+            />
+
+
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/hvacation">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/icon_phone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전화번호"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="37dp"
+            android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/hphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="777-7777-7777"
+                android:textColor="#717171"
+                android:textSize="14sp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="60dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/icon_location"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="96dp"
+                android:text="위치정보"
+                android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/haddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서울특별시 *** *** ***"
+            android:textColor="#717171"
+            android:textSize="14sp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="125dp"/>
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="164dp"
+                android:src="@drawable/icon_calendar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="160dp"
+                android:text="진료과목"
+                android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/hsubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="외과, 내과, 치과, 영상진단, 안과"
+            android:textColor="#717171"
+            android:textSize="14sp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="190dp"/>
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="230dp"
+                android:src="@drawable/icon_people"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="227dp"
+                android:text="의료진 소개"
+                android:textSize="14sp"/>
+
+        <LinearLayout
+            android:id="@+id/recyclerpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+
+
+
+
+            <ImageView
+                android:layout_below="@+id/recyclerpan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/icon_pen"/>
+
+            <TextView
+                android:layout_below="@+id/recyclerpan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="20dp"
+                android:text="병원소개"
+                android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_below="@+id/recyclerpan"
+            android:id="@+id/introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#717171"
+            android:textSize="14sp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="50dp"/>
+
+        <ImageView
+            android:id="@+id/questionbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/introduce"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/questionbtn"
+            />
+        <ImageView
+            android:id="@+id/reservbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/introduce"
+            android:layout_marginTop="29dp"
+            android:layout_marginLeft="188dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/reservbtn"
+            />
+
+
+
+
+    </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

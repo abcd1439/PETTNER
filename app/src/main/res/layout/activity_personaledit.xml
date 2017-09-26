@@ -1,0 +1,185 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.bottomtab.pettner.ThirdBottomTabActivity"
+    android:background="#ffffff">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#217dfb">
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:textSize="15sp"
+        android:background="#217dfb"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:background="#217dfb"
+            android:layout_below="@+id/toolbar">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/memberImage"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginLeft="132dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/icon_profile"/>
+</FrameLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/change_image"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_exchange"
+                android:layout_marginTop="77dp"
+                android:layout_marginLeft="201dp"
+
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="반려견 정보를 입력하세요."
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="207dp"
+            android:textSize="11sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="반려견의 정보를 더욱 정확하게 관리할 수 있습니다."
+            android:layout_marginLeft="81dp"
+            android:layout_marginTop="222dp"
+            android:textSize="10sp"
+            />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="251dp"
+        android:src="@drawable/icon_pen"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="반려견 이름"
+        android:textSize="14sp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="251dp"/>
+
+    <EditText
+        android:id="@+id/dogname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#585858"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="282dp"
+        android:textSize="14sp"
+        android:maxLines="1" />
+
+
+    <ImageView
+        android:id="@+id/woman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="257dp"
+        android:layout_marginTop="269dp"
+        android:src="@drawable/icon_awoman"/>
+    <ImageView
+        android:id="@+id/man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="308dp"
+        android:layout_marginTop="269dp"
+        android:src="@drawable/icon_man"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="327dp"
+        android:src="@drawable/icon_dog"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="견종"
+        android:textSize="14sp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="327dp"/>
+
+    <EditText
+        android:id="@+id/dogtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#585858"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="361dp"
+        android:textSize="14sp"
+        android:maxLines="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="404dp"
+        android:src="@drawable/icon_calendar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="반려견 나이"
+        android:textSize="14sp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="404dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="438dp">
+
+    <EditText
+        android:id="@+id/dogage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#585858"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:maxLines="1"
+        android:digits="0123456789"/>
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#585858"
+        android:textSize="14sp"
+        android:text="살" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/editbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/savebtn"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="558dp"
+        android:layout_marginBottom="10dp"/>
+
+
+</RelativeLayout>

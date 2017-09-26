@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    ​
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/materialup.appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+        ​
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/main.collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp"
+            app:layout_scrollFlags="scroll|snap"
+            android:background="#217dfb"
+            >
+
+
+
+
+            ​
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_back"
+                android:layout_margin="16dp"/>
+            <ImageView
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/icon_setting"
+                android:layout_margin="16dp"/>
+
+
+            <LinearLayout
+                android:id="@+id/title_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="8dp"
+                android:gravity="center"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:elevation="8dp"
+                    app:layout_scrollFlags="scroll"
+                    android:layout_marginTop="52dp"
+                    />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/change_image"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/icon_exchange"
+                        android:elevation="8dp"
+                        android:layout_marginTop="127dp"
+                        android:layout_marginLeft="68dp"
+                        app:layout_scrollFlags="scroll"
+
+                        />
+
+
+                </RelativeLayout>
+                ​
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:layout_marginTop="15dp"
+                    />
+                ​
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="9sp"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="6dp"
+                    />
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:layout_marginTop="6dp"
+                    />
+                ​
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+        ​​
+        ​
+
+        ​
+        <android.support.design.widget.TabLayout
+            android:id="@+id/materialup.tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabTextColor="#585858"
+            app:tabSelectedTextColor="#217dfb"
+            app:tabIndicatorColor="#217dfb"
+            />
+    </android.support.design.widget.AppBarLayout>
+    ​
+    <android.support.v4.view.ViewPager
+        android:id="@+id/materialup.viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+    ​
+
+
+
+</android.support.design.widget.CoordinatorLayout>

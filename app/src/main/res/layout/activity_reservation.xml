@@ -1,0 +1,383 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kr.bottomtab.pettner.ReservationActivity"
+    android:background="#ffffff">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#217dfb">
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/reserv_title_date"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:layout_marginLeft="38dp"
+            android:textSize="14sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reserv_button"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="92dp"
+        android:id="@+id/button" />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="159dp"
+        android:src="@drawable/reserv_title_time"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오전"
+        android:textSize="14sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="218dp"/>
+
+    <Button
+            android:id="@+id/btn1"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="10:00"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="55dp"
+        android:layout_marginTop="204dp"
+        android:tag="2"
+            />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="10:30"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="204dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="11:00"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="204dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="11:30"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="276dp"
+            android:layout_marginTop="204dp"
+            android:tag="2"/>
+
+
+        <LinearLayout
+            android:layout_width="328dp"
+            android:layout_height="1dp"
+            android:background="#959595"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="264dp"
+            android:layout_gravity="center_horizontal"/>
+
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오후"
+        android:textSize="14sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="298dp"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="14:00"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="284dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="14:30"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="284dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="15:00"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="284dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="15:30"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="276dp"
+            android:layout_marginTop="284dp"
+            android:tag="2"/>
+
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="16:00"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="331dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="16:30"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="331dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="17:00"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="331dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="17:30"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="276dp"
+            android:layout_marginTop="331dp"
+            android:tag="2"/>
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="18:00"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="379dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="18:30"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="379dp"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="19:00"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="379dp"
+            android:tag="2"/>
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/reserv_title_subject"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="451dp"/>
+
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="외과"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="497dp"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="내과"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="497dp"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="치과"
+            android:layout_marginLeft="183dp"
+            android:layout_marginTop="497dp"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:tag="2"/>
+        <Button
+            android:id="@+id/btn19"
+            android:layout_width="67dp"
+            android:layout_height="40dp"
+            android:text="영상진단"
+            android:layout_marginLeft="267dp"
+            android:layout_marginTop="497dp"
+            android:background="#daebfe"
+            android:textColor="#0d5ecd"
+            android:tag="2"/>
+
+    <Button
+        android:id="@+id/btn20"
+        android:layout_width="67dp"
+        android:layout_height="40dp"
+        android:text="안과"
+        android:background="#daebfe"
+        android:textColor="#0d5ecd"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="544dp"
+        android:tag="2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reserv_title_photo"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="618dp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/memberImage"
+                android:src="@drawable/reserv_plus"
+                android:scaleType="fitXY"
+                android:gravity="center_horizontal"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="662dp"
+                android:layout_marginLeft="16dp"
+                />
+        </FrameLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reserv_title_dog"
+        android:layout_marginTop="806dp"
+        android:layout_marginLeft="16dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/recyclerpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="820dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reserv_title_edit"
+        android:layout_below="@+id/recyclerpan"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="329dp"
+            android:layout_height="148dp"
+            android:layout_below="@+id/recyclerpan"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="15dp"
+            android:background="#ececec">
+            <EditText
+                android:id="@+id/memo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:layout_margin="10dp"
+                android:gravity="top"
+                android:textSize="14sp"
+                android:hint="증상 및 상담에 참고할 수 있는 내용을 자세히 입력해 주세요."
+                android:background="@null"
+                android:textColorHint="#959595"/>
+        </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/reservbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/recyclerpan"
+        android:layout_marginTop="227dp"
+        android:src="@drawable/reservbtnbig"
+        android:layout_marginBottom="46dp" />
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

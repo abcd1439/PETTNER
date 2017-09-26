@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#217dfb"
+        >
+    </android.support.v7.widget.Toolbar>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_calendar"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="114dp"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="23dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:text="검사항목"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="234dp"
+        android:textSize="16sp"
+        android:text="검사수치"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:layout_marginLeft="298dp"
+        android:textSize="16sp"
+        android:text="키트색상"/>
+    
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="0.3dp"
+        android:background="#959595"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="95dp" />
+    
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="간장"
+        android:layout_marginTop="119dp"
+        android:layout_marginLeft="17dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="당뇨"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="17dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신장"
+        android:layout_marginTop="229dp"
+        android:layout_marginLeft="17dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Urobilinogen)"
+        android:layout_marginTop="142dp"
+        android:layout_marginLeft="11dp"
+        android:textSize="12sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Glucose)"
+        android:layout_marginTop="197dp"
+        android:layout_marginLeft="11dp"
+        android:textSize="12sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Protein)"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="11dp"
+        android:textSize="12sp"/>
+
+
+    
+
+    <TextView
+        android:id="@+id/status1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="232dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"/>
+    <TextView
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="117dp"
+        android:layout_marginLeft="303dp"
+        android:fontFamily="sans-serif-light"/>
+    <Button
+        android:id="@+id/firstbtn"
+        android:layout_width="40dp"
+        android:layout_height="13dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginLeft="303dp"/>
+
+    <TextView
+        android:id="@+id/status2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="182dp"
+        android:layout_marginLeft="232dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"/>
+    <TextView
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="174dp"
+        android:layout_marginLeft="303dp"
+        android:fontFamily="sans-serif-light"/>
+    <Button
+        android:id="@+id/secondbtn"
+        android:layout_width="40dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="303dp"
+        android:layout_marginTop="195dp"/>
+
+    <TextView
+        android:id="@+id/status3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="232dp"
+        android:fontFamily="sans-serif-light"/>
+    <TextView
+        android:id="@+id/number3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="227dp"
+        android:layout_marginLeft="303dp"
+        android:fontFamily="sans-serif-light"/>
+    <Button
+        android:id="@+id/thirdbtn"
+        android:layout_width="40dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="303dp"
+        android:layout_marginTop="249dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="비정상시 수의사와의 상담이 필요합니다."
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="331dp"
+        android:textColor="#959595"
+        />
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kitsave_return"
+        android:layout_marginTop="496dp"
+        android:layout_marginLeft="16dp"/>
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kitsave_save"
+        android:layout_marginTop="496dp"
+        android:layout_marginLeft="188dp"/>
+</RelativeLayout>
+</RelativeLayout>

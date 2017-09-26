@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_alert"
+        android:layout_marginLeft="179dp"
+        android:layout_marginTop="86dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="키트검사를 하신 후 정보를 입력하면"
+        android:textSize="16sp"
+        android:textColor="#e85d5d5d"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="138dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="그래프가 표시됩니다."
+        android:textSize="16sp"
+        android:textColor="#e85d5d5d"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="160dp"/>
+
+
+</RelativeLayout>

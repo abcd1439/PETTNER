@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_weight="6"
+    android:paddingTop="48dp">
+
+        <ImageView
+            android:id="@+id/welcome_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/guide3"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal|bottom"/>
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="키트 색상값 입력하기"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0d5ecd"
+        android:textSize="16sp"
+        android:gravity="bottom|center_horizontal" />
+
+    <TextView
+        android:id="@+id/content"
+        android:text="페트너 어플리케이션에 키트 색상값을"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#959595"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"
+        android:gravity="top|center_horizontal" />
+    <TextView
+        android:text=" 입력하고 결과값을 기다리시면 됩니다."
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#959595"
+        android:textSize="12sp"
+        android:gravity="top|center_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.bottomtab.pettner.FirstBottomTabActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar"
+        app:elevation="0dp">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/badge_notification_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="288dp"
+        android:background="@drawable/badge_item_count"
+        android:textColor="#FFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+
+
+</RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:onClick="liverdata"
+            android:id="@+id/btn_0"
+            android:src="@drawable/liverbutton"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:focusable="true"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:onClick="diabetesdata"
+            android:id="@+id/btn_1"
+            android:src="@drawable/diabetesbutton"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:onClick="kidneydata"
+            android:id="@+id/btn_2"
+            android:src="@drawable/kidneybutton"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:onClick="weightdata"
+            android:id="@+id/btn_3"
+            android:src="@drawable/weightbutton"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#217dfb">
+
+            <com.bottomtab.jgraph.graph.JcoolGraph
+                android:id="@+id/sug_recode_line"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="226dp"
+                android:clickable="true"
+                android:paddingRight="5dp"
+                app:graphstyle="line"
+                app:showymsg="true"
+                />
+
+        </FrameLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:id="@+id/fragment_container"
+            android:layout_above="@+id/navigation"
+
+            />
+
+        <!-- 하단탭-->
+        <include
+            android:id="@+id/navigation"
+            layout="@layout/botton_navigation_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
